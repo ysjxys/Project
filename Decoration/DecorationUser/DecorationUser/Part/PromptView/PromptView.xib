@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PromptView" customModule="CustomExtension" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q1J-Ep-UCq">
+                    <rect key="frame" x="38" y="292.5" width="300" height="82.5"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mE6-Nb-bth" userLabel="Prompt Title View">
+                            <rect key="frame" x="26" y="21" width="248" height="17"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nxf-6m-npU">
+                                    <rect key="frame" x="0.0" y="0.0" width="0.0" height="16"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" id="e3d-Aj-cGf"/>
+                                        <constraint firstAttribute="height" constant="16" id="vuI-Oj-SEh"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We want the GitHub community \n kdk" textAlignment="natural" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIw-uo-pEU" userLabel="Prompt Title">
+                                    <rect key="frame" x="0.0" y="0.0" width="248" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="qIw-uo-pEU" firstAttribute="top" secondItem="mE6-Nb-bth" secondAttribute="top" id="4YY-LS-iE0"/>
+                                <constraint firstItem="Nxf-6m-npU" firstAttribute="leading" secondItem="mE6-Nb-bth" secondAttribute="leading" id="Ezr-fu-wYR"/>
+                                <constraint firstItem="qIw-uo-pEU" firstAttribute="leading" secondItem="Nxf-6m-npU" secondAttribute="trailing" id="Lhx-hC-6MC"/>
+                                <constraint firstAttribute="bottom" secondItem="qIw-uo-pEU" secondAttribute="bottom" id="Ufw-Fe-CHc"/>
+                                <constraint firstItem="Nxf-6m-npU" firstAttribute="centerY" secondItem="mE6-Nb-bth" secondAttribute="centerY" id="X0x-eA-0m1"/>
+                                <constraint firstAttribute="trailing" secondItem="qIw-uo-pEU" secondAttribute="trailing" id="xMZ-s5-pth"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hahahhahahhahahahhahahhahahahhahahahhah" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2OP-uI-008" userLabel="Prompt Detail">
+                            <rect key="frame" x="15" y="48" width="270" height="14.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.73790774828767125" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="mE6-Nb-bth" firstAttribute="top" secondItem="Q1J-Ep-UCq" secondAttribute="top" constant="21" id="88g-Ok-dOn"/>
+                        <constraint firstItem="2OP-uI-008" firstAttribute="leading" secondItem="Q1J-Ep-UCq" secondAttribute="leading" constant="15" id="CXJ-eB-APP"/>
+                        <constraint firstItem="mE6-Nb-bth" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Q1J-Ep-UCq" secondAttribute="leading" constant="25" id="QdE-r3-UCL"/>
+                        <constraint firstItem="2OP-uI-008" firstAttribute="centerX" secondItem="Q1J-Ep-UCq" secondAttribute="centerX" id="RKd-x7-kFJ"/>
+                        <constraint firstAttribute="trailing" secondItem="2OP-uI-008" secondAttribute="trailing" constant="15" id="Z2Q-WX-VAx"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="mE6-Nb-bth" secondAttribute="trailing" constant="25" id="hUV-Zg-bgC"/>
+                        <constraint firstItem="mE6-Nb-bth" firstAttribute="centerX" secondItem="Q1J-Ep-UCq" secondAttribute="centerX" id="wpP-Xa-ACb"/>
+                        <constraint firstItem="2OP-uI-008" firstAttribute="top" secondItem="mE6-Nb-bth" secondAttribute="bottom" constant="10" id="zp9-aT-o9E"/>
+                        <constraint firstAttribute="bottom" secondItem="2OP-uI-008" secondAttribute="bottom" constant="20" id="zvR-Vd-Ong"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1TT-bd-tou">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="1TT-bd-tou" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="F8G-ar-BuB"/>
+                <constraint firstItem="Q1J-Ep-UCq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="HDV-ly-bHU"/>
+                <constraint firstAttribute="trailing" secondItem="1TT-bd-tou" secondAttribute="trailing" id="UGM-XV-bGU"/>
+                <constraint firstAttribute="bottom" secondItem="1TT-bd-tou" secondAttribute="bottom" id="bG1-6k-dpb"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Q1J-Ep-UCq" secondAttribute="trailing" constant="16" id="c4h-gx-jn5"/>
+                <constraint firstItem="1TT-bd-tou" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cWQ-dB-3Tb"/>
+                <constraint firstItem="Q1J-Ep-UCq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="sml-ys-Fco"/>
+                <constraint firstItem="Q1J-Ep-UCq" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="tHt-oH-aTO"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroudView" destination="1TT-bd-tou" id="Cbj-Bz-xpX"/>
+                <outlet property="contentView" destination="Q1J-Ep-UCq" id="BsW-fU-4Ys"/>
+                <outlet property="gap" destination="zp9-aT-o9E" id="G6O-FD-aFX"/>
+                <outlet property="promptDetail" destination="2OP-uI-008" id="AVr-pX-eV9"/>
+                <outlet property="promptIcon" destination="Nxf-6m-npU" id="WhS-zI-RRA"/>
+                <outlet property="promptTitle" destination="qIw-uo-pEU" id="RNo-jR-zH7"/>
+            </connections>
+            <point key="canvasLocation" x="86" y="126"/>
+        </view>
+    </objects>
+</document>

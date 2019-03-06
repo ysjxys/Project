@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.5.1)
+  - CryptoSwift (0.7.1)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - HandyJSON (4.0.0-beta.1)
+  - Kingfisher (4.2.0)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.15)
+  - SAMKeychain (1.5.3)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5.1)
+  - CryptoSwift (= 0.7.1)
+  - FMDB (~> 2.7.0)
+  - HandyJSON (= 4.0.0-beta.1)
+  - Kingfisher (~> 4.2.0)
+  - MBProgressHUD (~> 1.0.0)
+  - MJRefresh (~> 3.1.15)
+  - SAMKeychain (~> 1.5.3)
+  - SnapKit (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CryptoSwift: c290ac8976cf28c52c8b88bfe2c58c0302a0e0c0
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  HandyJSON: 428bb18e2c34c2a77361accebf90cf64e4f74118
+  Kingfisher: 9ee7e788d8ba07c3f21ce0d43f33cec310a4f781
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: 89dc7a2d4e015d4cb72d6623830df89a20de613d
+
+COCOAPODS: 1.4.0.beta.1

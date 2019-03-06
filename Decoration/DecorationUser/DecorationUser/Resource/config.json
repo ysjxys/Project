@@ -1,0 +1,42 @@
+{
+    "environment": 1,
+    
+    "explain": {
+        "0": "生产环境", 
+        "1": "测试环境"
+    },
+    
+    "configs": {
+        
+        "production": {
+            
+            "bussinessHost": "https://rider.toobob.com",
+            "userCenterHost": "https://modem.toobob.com",
+            "socketHost": "ws://orderlinks.toobob.com/ws",
+            "socketPort": "80",
+            "toobobCommonHost": "https://admin.toobob.com",
+            "aliPushAppKey": "23747759",
+            "aliPushAppSecret": "1ceb451242ab05b5f5578cf1d56b629c",
+            "buglyID": "a9c29f942f",
+            "countlyKey": "18d7447585472e49bf0d1b1f984208597352b631",
+            "loggerEnable": "false"
+        },
+        
+        "development": {
+            
+            "bussinessHost": "http://tubobo-rider.dev.ops.com",
+            "userCenterHost": "http://usercenter-gate.dev.ops.com",
+            "socketHost": "ws://ops-cd-docker02.sysadmin.xinguangnet.com:2001/ws",
+            "socketPort": "2001",
+            "toobobCommonHost": "http://tubobo.dev.ops.com",
+            "aliPushAppKey": "24549681",
+            "aliPushAppSecret": "b0f00b5fdb4447d7e4ae95202d862ba3",
+            "buglyID": "95ab2070ca",
+            "countlyKey": "2f3708d57cc2b3db7c20145a433bf69fd346da9a",
+            "loggerEnable": "true"
+        }
+        
+    }
+    
+}
+
