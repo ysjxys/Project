@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521970503836EB4C4A787347 /* libPods-AirPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5237F303314E4A1DF3D7F058 /* libPods-AirPlayer.a */; };
+		7EDB1B71213540B6001C4398 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1B70213540B6001C4398 /* AppDelegate.m */; };
+		7EDB1B79213540BE001C4398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB1B78213540BE001C4398 /* Assets.xcassets */; };
+		7EDB1B7C213540BE001C4398 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDB1B7A213540BE001C4398 /* LaunchScreen.storyboard */; };
+		7EDB1B7F213540BE001C4398 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1B7E213540BE001C4398 /* main.m */; };
+		7EDB1B89213540BE001C4398 /* AirPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1B88213540BE001C4398 /* AirPlayerTests.m */; };
+		7EDB1B94213540BE001C4398 /* AirPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1B93213540BE001C4398 /* AirPlayerUITests.m */; };
+		7EDB1BA321354645001C4398 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1BA221354645001C4398 /* HomeViewController.m */; };
+		7EDB1BA621354E1B001C4398 /* VideoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1BA521354E1B001C4398 /* VideoModel.m */; };
+		7EDB1BA921362D43001C4398 /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDB1BA821362D43001C4398 /* VideoTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EDB1B85213540BE001C4398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EDB1B64213540B6001C4398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EDB1B6B213540B6001C4398;
+			remoteInfo = AirPlayer;
+		};
+		7EDB1B90213540BE001C4398 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EDB1B64213540B6001C4398 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EDB1B6B213540B6001C4398;
+			remoteInfo = AirPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5237F303314E4A1DF3D7F058 /* libPods-AirPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AirPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDB1B6C213540B6001C4398 /* AirPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDB1B6F213540B6001C4398 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EDB1B70213540B6001C4398 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EDB1B78213540BE001C4398 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EDB1B7B213540BE001C4398 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EDB1B7D213540BE001C4398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDB1B7E213540BE001C4398 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EDB1B84213540BE001C4398 /* AirPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDB1B88213540BE001C4398 /* AirPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPlayerTests.m; sourceTree = "<group>"; };
+		7EDB1B8A213540BE001C4398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDB1B8F213540BE001C4398 /* AirPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDB1B93213540BE001C4398 /* AirPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPlayerUITests.m; sourceTree = "<group>"; };
+		7EDB1B95213540BE001C4398 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDB1BA121354645001C4398 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7EDB1BA221354645001C4398 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7EDB1BA421354E1B001C4398 /* VideoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoModel.h; sourceTree = "<group>"; };
+		7EDB1BA521354E1B001C4398 /* VideoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoModel.m; sourceTree = "<group>"; };
+		7EDB1BA721362D43001C4398 /* VideoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
+		7EDB1BA821362D43001C4398 /* VideoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
+		996A17F2C6B75FAD4080969B /* Pods-AirPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirPlayer/Pods-AirPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		C66576C387114DFCC3D08E21 /* Pods-AirPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirPlayer/Pods-AirPlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EDB1B69213540B6001C4398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521970503836EB4C4A787347 /* libPods-AirPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDB1B81213540BE001C4398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDB1B8C213540BE001C4398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4D930CC8DFB6106DF6D218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5237F303314E4A1DF3D7F058 /* libPods-AirPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		249CCB26A68CAC7C8C3BD920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				996A17F2C6B75FAD4080969B /* Pods-AirPlayer.debug.xcconfig */,
+				C66576C387114DFCC3D08E21 /* Pods-AirPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EDB1B63213540B6001C4398 = {
+			isa = PBXGroup;
+			children = (
+				7EDB1B6E213540B6001C4398 /* AirPlayer */,
+				7EDB1B87213540BE001C4398 /* AirPlayerTests */,
+				7EDB1B92213540BE001C4398 /* AirPlayerUITests */,
+				7EDB1B6D213540B6001C4398 /* Products */,
+				249CCB26A68CAC7C8C3BD920 /* Pods */,
+				0B4D930CC8DFB6106DF6D218 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EDB1B6D213540B6001C4398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB1B6C213540B6001C4398 /* AirPlayer.app */,
+				7EDB1B84213540BE001C4398 /* AirPlayerTests.xctest */,
+				7EDB1B8F213540BE001C4398 /* AirPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EDB1B6E213540B6001C4398 /* AirPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB1B6F213540B6001C4398 /* AppDelegate.h */,
+				7EDB1B70213540B6001C4398 /* AppDelegate.m */,
+				7EDB1BA421354E1B001C4398 /* VideoModel.h */,
+				7EDB1BA521354E1B001C4398 /* VideoModel.m */,
+				7EDB1BA121354645001C4398 /* HomeViewController.h */,
+				7EDB1BA221354645001C4398 /* HomeViewController.m */,
+				7EDB1BA721362D43001C4398 /* VideoTableViewCell.h */,
+				7EDB1BA821362D43001C4398 /* VideoTableViewCell.m */,
+				7EDB1B78213540BE001C4398 /* Assets.xcassets */,
+				7EDB1B7A213540BE001C4398 /* LaunchScreen.storyboard */,
+				7EDB1B7D213540BE001C4398 /* Info.plist */,
+				7EDB1B7E213540BE001C4398 /* main.m */,
+			);
+			path = AirPlayer;
+			sourceTree = "<group>";
+		};
+		7EDB1B87213540BE001C4398 /* AirPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB1B88213540BE001C4398 /* AirPlayerTests.m */,
+				7EDB1B8A213540BE001C4398 /* Info.plist */,
+			);
+			path = AirPlayerTests;
+			sourceTree = "<group>";
+		};
+		7EDB1B92213540BE001C4398 /* AirPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EDB1B93213540BE001C4398 /* AirPlayerUITests.m */,
+				7EDB1B95213540BE001C4398 /* Info.plist */,
+			);
+			path = AirPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EDB1B6B213540B6001C4398 /* AirPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDB1B98213540BE001C4398 /* Build configuration list for PBXNativeTarget "AirPlayer" */;
+			buildPhases = (
+				BD409B65B91EAD1885FB06CF /* [CP] Check Pods Manifest.lock */,
+				7EDB1B68213540B6001C4398 /* Sources */,
+				7EDB1B69213540B6001C4398 /* Frameworks */,
+				7EDB1B6A213540B6001C4398 /* Resources */,
+				9EEF286B591DFB07987F66DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPlayer;
+			productName = AirPlayer;
+			productReference = 7EDB1B6C213540B6001C4398 /* AirPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EDB1B83213540BE001C4398 /* AirPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDB1B9B213540BE001C4398 /* Build configuration list for PBXNativeTarget "AirPlayerTests" */;
+			buildPhases = (
+				7EDB1B80213540BE001C4398 /* Sources */,
+				7EDB1B81213540BE001C4398 /* Frameworks */,
+				7EDB1B82213540BE001C4398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EDB1B86213540BE001C4398 /* PBXTargetDependency */,
+			);
+			name = AirPlayerTests;
+			productName = AirPlayerTests;
+			productReference = 7EDB1B84213540BE001C4398 /* AirPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EDB1B8E213540BE001C4398 /* AirPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EDB1B9E213540BE001C4398 /* Build configuration list for PBXNativeTarget "AirPlayerUITests" */;
+			buildPhases = (
+				7EDB1B8B213540BE001C4398 /* Sources */,
+				7EDB1B8C213540BE001C4398 /* Frameworks */,
+				7EDB1B8D213540BE001C4398 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EDB1B91213540BE001C4398 /* PBXTargetDependency */,
+			);
+			name = AirPlayerUITests;
+			productName = AirPlayerUITests;
+			productReference = 7EDB1B8F213540BE001C4398 /* AirPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EDB1B64213540B6001C4398 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ysj;
+				TargetAttributes = {
+					7EDB1B6B213540B6001C4398 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					7EDB1B83213540BE001C4398 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7EDB1B6B213540B6001C4398;
+					};
+					7EDB1B8E213540BE001C4398 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 7EDB1B6B213540B6001C4398;
+					};
+				};
+			};
+			buildConfigurationList = 7EDB1B67213540B6001C4398 /* Build configuration list for PBXProject "AirPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EDB1B63213540B6001C4398;
+			productRefGroup = 7EDB1B6D213540B6001C4398 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EDB1B6B213540B6001C4398 /* AirPlayer */,
+				7EDB1B83213540BE001C4398 /* AirPlayerTests */,
+				7EDB1B8E213540BE001C4398 /* AirPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EDB1B6A213540B6001C4398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDB1B7C213540BE001C4398 /* LaunchScreen.storyboard in Resources */,
+				7EDB1B79213540BE001C4398 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDB1B82213540BE001C4398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDB1B8D213540BE001C4398 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EEF286B591DFB07987F66DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AirPlayer/Pods-AirPlayer-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirPlayer/Pods-AirPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD409B65B91EAD1885FB06CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AirPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EDB1B68213540B6001C4398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDB1BA921362D43001C4398 /* VideoTableViewCell.m in Sources */,
+				7EDB1B7F213540BE001C4398 /* main.m in Sources */,
+				7EDB1B71213540B6001C4398 /* AppDelegate.m in Sources */,
+				7EDB1BA321354645001C4398 /* HomeViewController.m in Sources */,
+				7EDB1BA621354E1B001C4398 /* VideoModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDB1B80213540BE001C4398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDB1B89213540BE001C4398 /* AirPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EDB1B8B213540BE001C4398 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EDB1B94213540BE001C4398 /* AirPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EDB1B86213540BE001C4398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EDB1B6B213540B6001C4398 /* AirPlayer */;
+			targetProxy = 7EDB1B85213540BE001C4398 /* PBXContainerItemProxy */;
+		};
+		7EDB1B91213540BE001C4398 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EDB1B6B213540B6001C4398 /* AirPlayer */;
+			targetProxy = 7EDB1B90213540BE001C4398 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EDB1B7A213540BE001C4398 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EDB1B7B213540BE001C4398 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EDB1B96213540BE001C4398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EDB1B97213540BE001C4398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EDB1B99213540BE001C4398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 996A17F2C6B75FAD4080969B /* Pods-AirPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = AirPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.AirPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EDB1B9A213540BE001C4398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66576C387114DFCC3D08E21 /* Pods-AirPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = AirPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.AirPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7EDB1B9C213540BE001C4398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = AirPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.AirPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPlayer.app/AirPlayer";
+			};
+			name = Debug;
+		};
+		7EDB1B9D213540BE001C4398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = AirPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.AirPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirPlayer.app/AirPlayer";
+			};
+			name = Release;
+		};
+		7EDB1B9F213540BE001C4398 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = AirPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.AirPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirPlayer;
+			};
+			name = Debug;
+		};
+		7EDB1BA0213540BE001C4398 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2EUZ5J663F;
+				INFOPLIST_FILE = AirPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ysj.AirPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EDB1B67213540B6001C4398 /* Build configuration list for PBXProject "AirPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDB1B96213540BE001C4398 /* Debug */,
+				7EDB1B97213540BE001C4398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDB1B98213540BE001C4398 /* Build configuration list for PBXNativeTarget "AirPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDB1B99213540BE001C4398 /* Debug */,
+				7EDB1B9A213540BE001C4398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDB1B9B213540BE001C4398 /* Build configuration list for PBXNativeTarget "AirPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDB1B9C213540BE001C4398 /* Debug */,
+				7EDB1B9D213540BE001C4398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EDB1B9E213540BE001C4398 /* Build configuration list for PBXNativeTarget "AirPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EDB1B9F213540BE001C4398 /* Debug */,
+				7EDB1BA0213540BE001C4398 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EDB1B64213540B6001C4398 /* Project object */;
+}
